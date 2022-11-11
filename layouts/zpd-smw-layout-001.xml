@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8">
+<!-- 
+    @copyright 2022, Yannik Herbst
+    @license GNU General Public License, version 3 (or any later version)
+
+    This is free Software: you can redistribute it and/or modify it
+    under the terms of the GNU General Public License as published by the Free
+    Software Foundation, either version 3 of the License, or (at your option) any
+    later version.
+
+    @author Yannik Herbst
+ -->
+
+<structure xmlns="https://ProfessionalWiki.github.io/chameleon/schema/3.5/layout.rng">
+    <component type="NavbarHorizontal">
+        <component type="Logo" position="head" class="brand-logo" addLink="yes"/>
+        <component type="SearchBar" position="right"/>
+        <component type="NavMenu" flatten="no" position="right"/>
+    </component
+    <grid class="flex-fill">
+        <row>
+            <cell>
+                <component type="MainContent"/>
+            </cell>
+        </row>
+        <row>
+            <cell>
+                <component type="FooterPlaces"/>
+                <component type="FooterInfo"/>
+            </cell>
+        </row>
+    </grid>
+</structure
